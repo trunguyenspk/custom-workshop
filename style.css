@@ -2236,6 +2236,11 @@ p {
     width: 100%;
   }
 }
+@media (min-width: 375px) {
+  .three-cols .box {
+    width: 100%;
+  }
+}
 @media (min-width: 576px){
   .three-cols .box {
       width: 33.3%;
