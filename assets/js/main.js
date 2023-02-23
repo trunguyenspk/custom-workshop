@@ -1,8 +1,5 @@
 (function () {
 
-    /*=====================================
-    Sticky
-    ======================================= */
     window.onscroll = function () {
         var header_navbar = document.querySelector(".navbar-area");
         var sticky = header_navbar.offsetTop;
@@ -47,16 +44,18 @@
     
     // for menu scroll 
     var pageLink = document.querySelectorAll('.page-scroll');
-
     pageLink.forEach(elem => {
         elem.addEventListener('click', e => {
             e.preventDefault();
             document.querySelector(elem.getAttribute('href')).scrollIntoView({
-                behavior: 'smooth',
-                offsetTop: 1 - 60,
+                //behavior: 'smooth',
+                // offsetTop: 1 - 80,
             });
         });
     });
+
+    // WOW active
+    new WOW().init();
 
     "use strict";
 
