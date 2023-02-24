@@ -1020,6 +1020,7 @@ p {
   font-family: myFirstFont;
   color: var(--primary);
   font-style: var(--font-italic);
+  padding-top: 5%;
 }
 .welcome-content{
   font-style: var(--font-italic);
