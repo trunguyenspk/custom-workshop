@@ -907,12 +907,11 @@ p {
 }
 
 /*======================================
-    header Area CSS
+    HEADERCSS
 ========================================*/
 .header-eight {
   position: relative;
   padding:100px 0 100px 0;
-  /* background: var(--primary); */
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header-eight {
@@ -1026,6 +1025,60 @@ p {
   font-style: var(--font-italic);
   text-align: justify;
 }
+.header-eight .verticle-lines .vlines.vlines.one {
+  left: 23%;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+.header-eight .verticle-lines .vlines.vlines.two {
+  left: 40%;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+.header-eight .verticle-lines .vlines {
+  width: 3px;
+  height: 100%;
+  background: #f03b7c36;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  -webkit-transform: scaleY(0);
+  -ms-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+  -webkit-animation-name: lineanim;
+  animation-name: lineanim;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  opacity: 0.2;
+}
+
+@keyframes lineanim {
+  50% {
+    -webkit-transform: scaleY(1); 
+    transform: scaleY(1); 
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+  }
+  50.1% {
+    -webkit-transform-origin: bottom left;
+    transform-origin: bottom left;
+  }
+  100% {
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: bottom left;
+    transform-origin: bottom left;
+  }
+}
+
+
 
 /*===========================
   about-05 css
@@ -1094,10 +1147,10 @@ p {
   color: var(--dark-1);
   font-weight: 600;
   padding: 0;
-  margin-right: 25px;
+  margin-right: 39px;
   position: relative;
   background-color: var(--white);
-  padding: 10px 40px;
+  padding: 10px 10px;
   border-radius: 4px;
   text-transform: capitalize;
 }
