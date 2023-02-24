@@ -1259,7 +1259,9 @@ p {
 .services-eight .single-services .service-content h4 {
   font-size: 20px;
   font-weight: 600;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
+  margin: 30px 0 20px 0;
+  text-align: center;
 }
 .services-eight .single-services .service-content p {
   color: var(--dark-3);
@@ -1562,6 +1564,7 @@ p {
 }
 .latest-news-area .single-news .content-body .title {
   margin: 30px 0 20px 0;
+  text-align: center;
 }
 .latest-news-area .single-news .content-body .title a {
   color: var(--black);
@@ -1570,6 +1573,7 @@ p {
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
+  
 }
 .latest-news-area .single-news .content-body .title a:hover {
   color: var(--primary);
