@@ -9,9 +9,6 @@
         } else {
             header_navbar.classList.remove("sticky");
         }
-
-
-
         // show or hide the back-top-top button
         var backToTo = document.querySelector(".scroll-top");
         if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
@@ -48,8 +45,8 @@
         elem.addEventListener('click', e => {
             e.preventDefault();
             document.querySelector(elem.getAttribute('href')).scrollIntoView({
-                //behavior: 'smooth',
-                // offsetTop: 1 - 80,
+                behavior: 'smooth',
+                offsetTop: 1 - 80,
             });
         });
     });
