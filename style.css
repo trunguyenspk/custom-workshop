@@ -1640,7 +1640,7 @@ p {
   border-radius: 30px;
   background-color: var(--primary);
   position: absolute;
-  right: 20px;
+  right: 3px;
   bottom: 20px;
 }
 .latest-news-area .single-news .image .meta-details img {
@@ -1652,8 +1652,8 @@ p {
 .latest-news-area .single-news .image .meta-details span {
   color: var(--white);
   display: inline-block;
-  margin-left: 10px;
-  font-size: 10px;
+  /* margin-left: 10px; */
+  font-size: 15px;
   font-weight: 500;
 }
 .latest-news-area .single-news .content-body .title {
