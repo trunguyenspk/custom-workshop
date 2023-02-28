@@ -169,7 +169,7 @@ p {
   font-size: 1em;
   font-weight: 400;
   line-height: 1.5;
-  color: var(--dark-3);
+  color: var(--dark);
   margin: 0px;
 }
 
@@ -290,19 +290,19 @@ p {
 
 /* One Click Scrool Top Button*/
 .scroll-top {
-  width: 45px;
-  height: 45px;
+  width: 40px;
+  height: 40px;
   line-height: 45px;
   background: var(--primary);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   font-size: 14px;
   color: #fff !important;
   border-radius: 0;
@@ -321,7 +321,6 @@ p {
   box-shadow: 0 1rem 3rem rgba(35, 38, 45, 0.15) !important;
   -webkit-transform: translate3d(0, -5px, 0);
   transform: translate3d(0, -5px, 0);
-  background-color: var(--dark-1);
 }
 
 /*===========================
@@ -370,7 +369,7 @@ p {
   }
 }
 .section-title-five p {
-  color: var(--dark-3);
+  /* color: var(--dark-3); */
 }
 
 .made-in-ayroui{
@@ -1147,12 +1146,11 @@ p {
   color: var(--dark-1);
   font-weight: 600;
   padding: 0;
-  margin-right: 39px;
+  margin-right: 49px;
   position: relative;
   background-color: var(--white);
-  padding: 10px 10px;
+  padding: 10px 60px;
   border-radius: 4px;
-  text-transform: capitalize;
 }
 @media (max-width: 767px) {
   .about-five-content .about-five-tab nav button {
@@ -1260,7 +1258,7 @@ p {
   transition: all 0.3s ease-out 0s; */
 }
 .services-eight .single-services:hover {
-  box-shadow: var(--shadow-4);
+  /* box-shadow: var(--shadow-4); */
 }
 .services-eight .single-services:hover .service-icon {
   color: var(--white);
@@ -1319,6 +1317,13 @@ p {
 .services-eight .single-services .service-content p {
   color: var(--dark-3);
 }
+
+.service-content{
+  text-align: justify;
+  padding: 0px 2%;
+  font-style: italic;
+}
+
 
 
 
@@ -2218,6 +2223,10 @@ p {
   padding: 25px;
 }
 
+.team-style-eight .single-team .info-box {
+  text-align: center;
+}
+
 .team-style-eight .single-team .info-box .name {
   display: block;
   font-size: 18px;
@@ -2227,7 +2236,6 @@ p {
 }
 
 .team-style-eight .single-team .info-box .designation {
-  /* color: var(--dark-3); */
   font-size: 14px;
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
@@ -2236,7 +2244,7 @@ p {
 
 
 
-/* Album CSS */
+/* ALBUM */
 .album-style-eight{
  padding-top: 100px;
 }
@@ -2359,17 +2367,19 @@ p {
   border-style: solid;
   background-size: cover;
 }
+
 .left-slider{
   width: 46px;
   height: 46px;
   background-image: none;
   padding: 10px;
   color: #ffffff;
-  background-color: #f66d00;
+  background-color: var(--primary);
   border-radius: 50%;
   top: 50% !important;
   transform: translateY(-50%);
 }
+
 .u-text-2 {
   width: 712px;
   margin: 20px auto 0;
@@ -2382,7 +2392,7 @@ p {
   margin: 20px auto 0;text-align: center;
 }
 
-@media (min-width: 390px) {
+@media screen and (max-width: 392px) {
   .review-comment-1{
     width: 250px;
     height: 250px;
@@ -2421,7 +2431,7 @@ p {
   }
 
   .u-text-2 {
-    width: 300px;
+    width: 250px;
     margin: 20px auto 0;
     text-align: center;
   }
@@ -2432,70 +2442,14 @@ p {
     background-image: none;
     padding: 10px;
     color: #ffffff;
-    background-color: #f66d00;
-    border-radius: 50%;
-    top: 40% !important;
-    transform: translateY(-50%);
-  }
-}
-@media (min-width: 375px) {
-  .review-comment-1{
-    width: 250px;
-    height: 250px;
-    background-image: url("assets/images/review1.jpg");
-    background-position: 50% 50%;
-    margin: 0 auto;
-    border-radius: 50% !important;
-    border-color: var(--primary);
-    border-width: 8px;
-    border-style: solid;
-    background-size: cover;
-  }
-  .review-comment-2{
-    width: 250px;
-    height: 250px;
-    background-image: url("assets/images/review2.jpg");
-    background-position: 50% 50%;
-    margin: 0 auto;
-    border-radius: 50% !important;
-    border-color: var(--primary);
-    border-width: 8px;
-    border-style: solid;
-    background-size: cover;
-  }
-  .review-comment-3{
-    width: 250px;
-    height: 250px;
-    background-image: url("assets/images/review3.jpg");
-    background-position: 50% 50%;
-    margin: 0 auto;
-    border-radius: 50% !important;
-    border-color: var(--primary);
-    border-width: 8px;
-    border-style: solid;
-    background-size: cover;
-  }
-
-  .u-text-2 {
-    width: 300px;
-    margin: 20px auto 0;
-    text-align: center;
-  }
-
-  .left-slider{
-    width: 46px;
-    height: 46px;
-    background-image: none;
-    padding: 10px;
-    color: #ffffff;
-    background-color: #f66d00;
+    background-color: var(--primary);
     border-radius: 50%;
     top: 40% !important;
     transform: translateY(-50%);
   }
 }
 
-@media (min-width: 576px){
+@media screen and (max-width: 376px) {
   .review-comment-1{
     width: 250px;
     height: 250px;
@@ -2534,7 +2488,7 @@ p {
   }
 
   .u-text-2 {
-    width: 300px;
+    width: 250px;
     margin: 20px auto 0;
     text-align: center;
   }
@@ -2545,10 +2499,70 @@ p {
     background-image: none;
     padding: 10px;
     color: #ffffff;
-    background-color: #f66d00;
+    background-color: var(--primary);
     border-radius: 50%;
     top: 40% !important;
     transform: translateY(-50%);
   }
+
+}
+
+@media screen and (max-width: 415px) {
+  .review-comment-1{
+    width: 250px;
+    height: 250px;
+    background-image: url("assets/images/review1.jpg");
+    background-position: 50% 50%;
+    margin: 0 auto;
+    border-radius: 50% !important;
+    border-color: var(--primary);
+    border-width: 8px;
+    border-style: solid;
+    background-size: cover;
+  }
+  .review-comment-2{
+    width: 250px;
+    height: 250px;
+    background-image: url("assets/images/review2.jpg");
+    background-position: 50% 50%;
+    margin: 0 auto;
+    border-radius: 50% !important;
+    border-color: var(--primary);
+    border-width: 8px;
+    border-style: solid;
+    background-size: cover;
+  }
+  .review-comment-3{
+    width: 250px;
+    height: 250px;
+    background-image: url("assets/images/review3.jpg");
+    background-position: 50% 50%;
+    margin: 0 auto;
+    border-radius: 50% !important;
+    border-color: var(--primary);
+    border-width: 8px;
+    border-style: solid;
+    background-size: cover;
+  }
+
+  .u-text-2 {
+    width: 250px;
+    margin: 20px auto 0;
+    text-align: center;
+  }
+
+  .left-slider{
+    width: 46px;
+    height: 46px;
+    background-image: none;
+    padding: 10px;
+    color: #ffffff;
+    background-color: var(--primary);
+    border-radius: 50%;
+    top: 40% !important;
+    transform: translateY(-50%);
+  }
+
+ 
 }
 
