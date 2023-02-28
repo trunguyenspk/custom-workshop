@@ -60,7 +60,7 @@
                   <a class="page-scroll" href="#blog">Tin Tức</a>
                 </li>
                 <li class="nav-item">
-                  <a class="page-scroll" href="#pricing">Đội ngũ</a>
+                  <a class="page-scroll" href="#team">Đội ngũ</a>
                 </li>
                 <li class="nav-item">
                   <a class="page-scroll" href="#album">Thư viện ảnh</a>
@@ -119,8 +119,6 @@
   </div>
   <div class="overlay-left"></div>
 
-  <!--====== SIDEBAR PART ENDS ======-->
-
   <!-- Start header Area -->
   <section id="hero-area" class="header-area header-eight">
     <!-- <div class="verticle-lines">
@@ -150,10 +148,30 @@
             </div>
           </div>
         </div>
+
         <div class="col-lg-6 col-md-12 col-12">
-          <div class="header-image wow fadeInRight" data-wow-delay=".2s">
+          <!-- <div class="header-image wow fadeInRight" data-wow-delay=".2s">
             <img src="assets/images/intro2.jpg" />
+          </div> -->
+
+          <div id="intro-indicators" class="carousel slide wow fadeIn" data-wow-delay=".1s" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="header-image wow fadeInRight" data-wow-delay=".2s">
+                  <img src="assets/images/intro1.jpg" />
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="header-image wow fadeInRight" data-wow-delay=".2s">
+                  <img src="assets/images/intro2.jpg" />
+                </div>
+              </div>
+              
+            </div>
+
           </div>
+
+
         </div>
       </div>
     </div>
@@ -214,8 +232,6 @@
     <!-- container -->
   </section>
 
-  <!--====== ABOUT FIVE PART ENDS ======-->
-
   <!-- ===== service-area start ===== -->
   <section id="services" class="services-area services-eight">
     <div class="section-title-five">
@@ -240,7 +256,7 @@
           <div class="single-services wow zoomIn" data-wow-delay=".2s">
             <div class="image">
               <a href="assets/images/ws1.jpg" class="glightbox_2">
-              <img class="thumb" src="assets/images/ws1.jpg" alt="Blog" />
+              <img class="service-image" src="assets/images/ws1.jpg" alt="Blog" />
               </a>
             </div>
             <div class="service-content">
@@ -255,7 +271,7 @@
           <div class="single-services wow zoomIn" data-wow-delay=".3">
             <div class="image">
               <a href="assets/images/ws2.jpg" class="glightbox_2">
-              <img class="thumb" src="assets/images/ws2.jpg" alt="Blog" />
+              <img class="service-image" src="assets/images/ws2.jpg" alt="Blog" />
               </a>
             </div>
             <div class="service-content">
@@ -270,7 +286,7 @@
           <div class="single-services wow zoomIn" data-wow-delay=".4">
             <div class="image">
               <a href="assets/images/ws3.jpg" class="glightbox_2">
-              <img class="thumb" src="assets/images/ws3.jpg" alt="Blog" />
+              <img class="service-image" src="assets/images/ws3.jpg" alt="Blog" />
               </a>
             </div>
             <div class="service-content">
@@ -294,7 +310,7 @@
       <div class="row">
         <div class="col-12">
           <div class="content">
-            <h6>Tin Tức</h6>
+            <h6>Hoạt động Workshop</h6>
             <p>
               Mọi người tham khảo qua những workshop bên mình đã tổ chức và thành công trong thời gian vừa qua nhé
             </p>
@@ -305,6 +321,29 @@
   </div>
   <div class="container">
     <div class="row">
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="single-news wow bounceIn" data-wow-delay=".3s">
+           <div class="image">
+             <a href="assets/images/event6.jpg" class="glightbox_3">
+               <img class="thumb" src="assets/images/event6.jpg" alt="Blog" />
+             </a>
+             <div class="meta-details">
+               <span>05-03-2023</span>
+             </div>
+           </div>
+           <div class="content-body">
+             <h4 class="title">
+               <a href="javascript:void(0)">
+                 Workshop Papper Soft Clay 2
+               </a>
+             </h4>
+             <p class="italic-content">
+              Chúng mình sẽ đồng hành cùng bạn, chỉ dẫn tận tâm tận tình để bảo đảm bạn có sản phẩm đẹp nhất thành phẩm 
+              để gửi tặng đến những người con yêu thương nhân ngày Quốc tế Phụ nữ
+             </p>
+           </div>
+         </div>
+       </div>
       <div class="col-lg-4 col-md-6 col-12">
        <div class="single-news wow bounceIn" data-wow-delay=".3s">
           <div class="image">
@@ -318,13 +357,12 @@
           <div class="content-body">
             <h4 class="title">
               <a href="javascript:void(0)">
-                Workshop Papper Soft Clay
+                Workshop Papper Soft Clay 1
               </a>
             </h4>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and
-              typesetting industry. Lorem Ipsum has been the industry's
-              standard.
+            <p class="italic-content">
+              Đến với workshop, các con sẽ được vui chơi cùng đất sét Paper Soft Clay tạo ra vô vàn hình ảnh độc đáo và đáng  yêu. 
+              Các con sẽ tự tay gói một bó hoa, thành phẩm để giữ làm kỉ niệm hoặc gửi tặng đến những người con yêu thương.
             </p>
           </div>
         </div>
@@ -336,7 +374,7 @@
               <img class="thumb" src="assets/images/event5.jpg" alt="Blog" />
             </a>
             <div class="meta-details">
-              <span>12-12-2022</span>
+              <span>15-01-2023</span>
             </div>
           </div>
           <div class="content-body">
@@ -345,10 +383,9 @@
                 Workshop Tết 2023
               </a>
             </h4>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and
-              typesetting industry. Lorem Ipsum has been the industry's
-              standard.
+            <p class="italic-content">
+              Đến với workshop, chúng mình sẽ hướng dẫn bạn một vài kỹ thuật tạo hình với đất sét tự khô. 
+              Cùng rinh về một chiếc sản phẩm xinh xắn decor nhà vào dịp Tết
             </p>
           </div>
         </div>
@@ -361,19 +398,17 @@
               <img class="thumb" src="assets/images/event4.jpg" alt="Blog" />
             </a>  
             <div class="meta-details">
-              <span>12-12-2022</span>
+              <span>08-01-2023</span>
             </div>
           </div>
           <div class="content-body">
             <h4 class="title">
               <a href="javascript:void(0)">
-                Workshop khảm đá Mosaic 
+                Workshop khảm đá Mosaic 2
               </a>
             </h4>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and
-              typesetting industry. Lorem Ipsum has been the industry's
-              standard.
+            <p class="italic-content">
+              Được sự tin yêu, ủng hộ từ bạn bè, anh chị em, đồng nghiệp và khách hàng. Chúng mình rất vui và tiếp tục tổ chức về Workshop khảm đá Mosaic
             </p>
           </div>
         </div>
@@ -387,17 +422,15 @@
               <img class="thumb" src="assets/images/event3.jpg" alt="Blog" />
             </a>
             <div class="meta-details">
-              <span>26-12-2022</span>
+              <span>25-12-2022</span>
             </div>
           </div>
           <div class="content-body">
             <h4 class="title">
-              <a href="javascript:void(0)"> Workshop Noel 2023 </a>
+              <a href="javascript:void(0)"> Christmast Workshop </a>
             </h4>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and
-              typesetting industry. Lorem Ipsum has been the industry's
-              standard.
+            <p class="italic-content">
+              Lớp Học Khảm Đá cùng với Ms Charm để trải nghiệm một bộ môn nghệ thuật thủ công phát triển tư duy và sáng tạo trong dịp Noel 2022
             </p>
           </div>
         </div>
@@ -411,56 +444,28 @@
                <img class="thumb" src="assets/images/event2.jpg" alt="Blog" />
             </a>
             <div class="meta-details">
-              <span>19-12-2022</span>
+              <span>18-12-2022</span>
             </div>
           </div>
           <div class="content-body">
             <h4 class="title">
               <a href="javascript:void(0)">
-                Workshop khảm đá Mosaic  
+                Workshop khảm đá Mosaic 1
               </a>
             </h4>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and
-              typesetting industry. Lorem Ipsum has been the industry's
-              standard.
+            <p class="italic-content">
+              Mosaic workshop sẽ như là một dịp để cả nhà mình cùng tham gia thư giãn, vui chơi và sáng tạo cùng nhau trong thế giới của những viên đá thủy tinh lấp lánh.
             </p>
           </div>
         </div>
         <!-- End Single News -->
       </div>
-      <div class="col-lg-4 col-md-6 col-12">
-        <!-- Single News -->
-        <div class="single-news wow bounceIn" data-wow-delay=".3s">
-          <div class="image">
-            <a href="assets/images/event1.jpg" class="glightbox_3">
-              <img class="thumb" src="assets/images/event1.jpg" alt="Blog" />
-            </a>
-            <div class="meta-details">
-              <span>12-12-2022</span>
-            </div>
-          </div>
-          <div class="content-body">
-            <h4 class="title">
-              <a href="javascript:void(0)">
-                Workshop đầu tiên của Ms Trâm
-              </a>
-            </h4>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and
-              typesetting industry. Lorem Ipsum has been the industry's
-              standard.
-            </p>
-          </div>
-        </div>
-      </div>
-      
     </div>
   </div>
 </div>
 
   <!-- Start Team -->
-  <section id="pricing" class="team-style-eight">
+  <section id="team" class="team-style-eight">
     <div class="section-title-five">
       <div class="container">
         <div class="row">
@@ -468,7 +473,7 @@
             <div class="content">
               <h6>Đội ngũ</h6>
               <p>
-                Với nhiều năm kinh nghiệm làm việc với các bạn nhỏ, các cô giáo tự tin tổ chức những sân chơi cho các bạn một cách bài bản và vui vẻ.
+                Với nhiều năm kinh nghiệm làm việc với các bạn nhỏ, tụi mình tự tin tổ chức những sân chơi cho các bạn một cách bài bản và có nhiều trải nghiệm ý nghĩa.
                 Giới thiệu mọi người về những thành viên tụi mình...
               </p>
             </div>
@@ -479,10 +484,10 @@
     <div class="container">
       <div class="row">
     
-        <div class="col-lg-3 col-md-6 col-12 ">
+        <div class="col-lg-4 col-md-6 col-12 ">
           <div class="single-team wow fadeIn" data-wow-delay=".5s">
             <div class="image">
-              <img src="assets/images/ms-tram.jpg" alt="Image">
+              <img class="thumb" src="assets/images/ms-tram.jpg" alt="Image">
             </div>
             <div class="info-head">
               <div class="info-box">
@@ -493,62 +498,47 @@
           </div>
         </div>
     
-        <div class="col-lg-3 col-md-6 col-12">
+        <div class="col-lg-4 col-md-6 col-12">
           <div class="single-team wow fadeIn" data-wow-delay=".7s">
-    
             <div class="image">
-              <img src="assets/images/ms-hoa.jpg" alt="Image" >
-    
+              <img class="thumb" src="assets/images/ms-hoa.jpg" alt="Image" >
             </div>
-    
             <div class="info-head">
-    
               <div class="info-box">
                 <h4 class="name">Ms Hoa</h4>
                 <span class="designation">GVHD</span>
               </div>
-    
             </div>
           </div>
         </div>
     
-        <div class="col-lg-3 col-md-6 col-12">
+        <div class="col-lg-4 col-md-6 col-12">
           <div class="single-team wow fadeIn" data-wow-delay=".9s">
-    
             <div class="image">
-              <img src="assets/images/ms-ha.jpg" alt="Image">
-    
+              <img class="thumb" src="assets/images/ms-thu.jpg" alt="Image">
             </div>
-    
             <div class="info-head">
+              <div class="info-box">
+                <h4 class="name">Ms Thư</h4>
+                <span class="designation">GVHD</span>
+              </div>
+            </div>
+          </div>
+        </div>
     
+        <!-- <div class="col-lg-3 col-md-6 col-12">
+          <div class="single-team wow fadeIn" data-wow-delay="1.1s">
+            <div class="image">
+              <img src="assets/images/ms-tram.jpg" alt="Image">
+            </div>
+            <div class="info-head">
               <div class="info-box">
                 <h4 class="name">Ms Hà</h4>
                 <span class="designation">GVHD</span>
               </div>
-    
             </div>
           </div>
-        </div>
-    
-        <div class="col-lg-3 col-md-6 col-12">
-          <div class="single-team wow fadeIn" data-wow-delay="1.1s">
-    
-            <div class="image">
-              <img src="assets/images/ms-tram.jpg" alt="Image">
-    
-            </div>
-    
-            <div class="info-head">
-    
-              <div class="info-box">
-                <h4 class="name">Ms Trang</h4>
-                <span class="designation">GVHD</span>
-              </div>
-    
-            </div>
-          </div>
-        </div>
+        </div> -->
     
       </div>
     </div>
@@ -572,54 +562,100 @@
         
         <div class="col-md-12">
           <ul class="box-container three-cols">
-              <li class="box show wow fadeInLeft" data-wow-delay=".2s" style="transition-delay: 0s;">
+            <li class="box show wow zoomIn" data-wow-delay=".2s" style="transition-delay: 0s;">
+              <div class="inner">
+                  <a href="assets/images/ab13.jpg" class="glightbox_1">
+                      <img class="thumb"  src="assets/images/ab13.jpg" alt="image">
+                  </a>
+              </div>
+            </li>
+            <li class="box show wow zoomIn" data-wow-delay=".2s" style="transition-delay: 0s;">
+              <div class="inner">
+                  <a href="assets/images/ab12.jpg" class="glightbox_1">
+                      <img class="thumb"  src="assets/images/ab12.jpg" alt="image">
+                  </a>
+              </div>
+            </li>
+            <li class="box show wow zoomIn" data-wow-delay=".2s" style="transition-delay: 0s;">
+              <div class="inner">
+                  <a href="assets/images/ab11.jpg" class="glightbox_1">
+                      <img class="thumb"  src="assets/images/ab11.jpg" alt="image">
+                  </a>
+              </div>
+            </li>
+              <li class="box show wow zoomIn" data-wow-delay=".2s" style="transition-delay: 0s;">
+                <div class="inner">
+                    <a href="assets/images/ab7.jpg" class="glightbox_1">
+                        <img class="thumb"  src="assets/images/ab7.jpg" alt="image">
+                    </a>
+                </div>
+              </li>
+              <li class="box show wow zoomIn" data-wow-delay=".2s" style="transition-delay: 0s;">
+                <div class="inner">
+                    <a href="assets/images/ab8.jpg" class="glightbox_1">
+                        <img class="thumb"  src="assets/images/ab8.jpg" alt="image">
+                    </a>
+                </div>
+              </li>
+              <li class="box show wow zoomIn" data-wow-delay=".2s" style="transition-delay: 0s;">
+                <div class="inner">
+                    <a href="assets/images/ab9.jpg" class="glightbox_1">
+                        <img class="thumb"  src="assets/images/ab9.jpg" alt="image">
+                    </a>
+                </div>
+              </li>
+              <li class="box show wow zoomIn" data-wow-delay=".2s" style="transition-delay: 0s;">
                   <div class="inner">
                       <a href="assets/images/album1.jpg" class="glightbox_1">
                           <img class="thumb"  src="assets/images/album1.jpg" alt="image">
                       </a>
                   </div>
               </li>
-              <li class="box show wow fadeInLeft" data-wow-delay=".3s" style="transition-delay: 0.75s;">
+              <li class="box show wow zoomIn" data-wow-delay=".3s" style="transition-delay: 0.75s;">
                 <div class="inner">
                   <a href="assets/images/album6.jpg" class="glightbox_1">
                     <img src="assets/images/album6.jpg" alt="image">
                 </a>
                 </div>
-            </li>
-              <li class="box show wow fadeInLeft" data-wow-delay=".4s" style="transition-delay: 0.15s;">
+              </li>
+              <li class="box show wow zoomIn" data-wow-delay=".4s" style="transition-delay: 0.15s;">
                   <div class="inner">
                     <a href="assets/images/album2.jpg" class="glightbox_1">
                       <img src="assets/images/album2.jpg" alt="image">
                   </a>
                   </div>
               </li>
-              <li class="box show wow fadeInRight" data-wow-delay=".2s" style="transition-delay: 0.3s;">
+              <li class="box show wow zoomIn" data-wow-delay=".2s" style="transition-delay: 0.3s;">
                   <div class="inner">
                     <a href="assets/images/album3.jpg" class="glightbox_1">
                       <img src="assets/images/album3.jpg" alt="image">
                   </a>
                   </div>
               </li>
-              <li class="box show wow fadeInRight" data-wow-delay=".3s" style="transition-delay: 0.45s;">
+              <li class="box show wow zoomIn" data-wow-delay=".3s" style="transition-delay: 0.45s;">
                   <div class="inner">
                     <a href="assets/images/album4.jpg" class="glightbox_1">
                       <img src="assets/images/album4.jpg" alt="image">
                     </a>
                   </div>
               </li>
-              <li class="box show wow fadeInRight" data-wow-delay=".4s" style="transition-delay: 0.6s;">
+              <li class="box show wow zoomIn" data-wow-delay=".4s" style="transition-delay: 0.6s;">
                   <div class="inner">
                     <a href="assets/images/album5.jpg" class="glightbox_1">
                       <img src="assets/images/album5.jpg" alt="image">
                   </a>
                   </div>
               </li>
-              <a href="assets/images/album7.jpg" class="glightbox_1"></a>
-              <a href="assets/images/album8.jpg" class="glightbox_1"></a>
-              <a href="assets/images/album9.jpg" class="glightbox_1"></a>
-              <a href="assets/images/album10.jpg" class="glightbox_1"></a>
+              
           </ul>
         </div>
+        <div class="col-md-12 more-image-text">
+          <a href="assets/album/album7.jpg" class="glightbox_image_more"><h4>Xem thêm</h4></a> 
+          <a href="assets/album/album8.jpg" class="glightbox_image_more"></a>
+          <a href="assets/album/album9.jpg" class="glightbox_image_more"></a>
+          <a href="assets/album/album10.jpg" class="glightbox_image_more"></a>
+        </div>
+         
       </div>
     </div>
   </section>
@@ -650,9 +686,9 @@
                   </div>
                   <div class="contact-content">
                     <h4>Thông tin liên hệ</h4>
-                    <p>Ms Trâm</p>
+                    <p>Ms Bích Trâm</p>
                     <p>0982.002.270 </p>
-                    <p>tramtit95@gmail.com</p>
+                    <p>tramtit1995@gmail.com</p>
                   </div>
                 </div>
               </div>
@@ -897,6 +933,10 @@
     //   selector: '.glightbox'
     // });
 
+    var lightboxMoreImage = GLightbox({
+      selector: '.glightbox_image_more'
+    });
+
     var lightboxEvent = GLightbox({
       selector: '.glightbox_3'
     });
@@ -913,5 +953,4 @@
 
   </script>
 </body>
-
 </html>

@@ -62,6 +62,9 @@
   --font-italic: italic
 }
 
+.italic-content{
+  font-style: italic;
+}
 body {
   font-family: var(--font-family);
   color: var(--black);
@@ -930,6 +933,7 @@ p {
   width: 100%;
   border-radius: 50%;
   height: 640px;
+  object-fit: cover;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .header-eight .header-image img {
@@ -1007,6 +1011,31 @@ p {
 
 .intro-left{
   padding-bottom: 5%;
+}
+
+.intro-image-1{
+  width: 350px;
+  height: 640px;
+  background-image: url("assets/images/intro1.jpg");
+  background-position: 50% 50%;
+  margin: 0 auto;
+  border-radius: 50% !important;
+  border-color: var(--primary);
+  border-width: 8px;
+  border-style: solid;
+  background-size: cover;
+}
+.intro-image-2{
+  width: 350px;
+  height: 350px;
+  background-image: url("assets/images/intro2.jpg");
+  background-position: 50% 50%;
+  margin: 0 auto;
+  border-radius: 50% !important;
+  border-color: var(--primary);
+  border-width: 8px;
+  border-style: solid;
+  background-size: cover;
 }
 
 @font-face {
@@ -1247,7 +1276,7 @@ p {
   }
 }
 .services-eight .single-services {
-  /* padding: 40px 30px;
+  padding: 40px 30px;
   border: 1px solid var(--light-1);
   border-radius: 10px;
   margin-bottom: 30px;
@@ -1255,10 +1284,10 @@ p {
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s; */
+  transition: all 0.3s ease-out 0s;
 }
-.services-eight .single-services:hover {
-  /* box-shadow: var(--shadow-4); */
+.services-eight .single-services {
+  box-shadow: var(--shadow-4);
 }
 .services-eight .single-services:hover .service-icon {
   color: var(--white);
@@ -1322,6 +1351,13 @@ p {
   text-align: justify;
   padding: 0px 2%;
   font-style: italic;
+  height: 140px;
+}
+
+.service-image{
+  /* border-radius: 5%;
+  border: solid 1px;
+  border-color: var(--primary); */
 }
 
 
@@ -2192,16 +2228,21 @@ p {
   background-color: var(--white);
   border-radius: 5px;
   overflow: hidden;
-  box-shadow: var(--shadow-2);
+  box-shadow: var(--shadow-4);
+  /* height: 270px;
+  width: 300px; */
+  /* background-image: url("assets/images/ms-hoa.jpg");; */
 }
 
-.team-style-eight .single-team .image {
-    position: relative;
-    text-align: center;
+.team-style-eight .single-team .image .image-team {
+  /* height: 450px;
+  width: 100%;
+  float: left;
+  object-fit: cover; */
 }
 
 .team-style-eight .single-team .image::before {
-  position: absolute;
+  /* position: absolute;
   content: "";
   left: 0;
   bottom: 0;
@@ -2210,7 +2251,7 @@ p {
   background: linear-gradient(transparent, var(--primary));
   transition: all 0.4s ease-in-out;
   opacity: 0;
-  visibility: hidden;
+  visibility: hidden; */
 }
 
 .team-style-eight .single-team .info-head {
@@ -2240,6 +2281,18 @@ p {
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
   transition: all 0.4s ease;
+}
+
+.team-style-eight .single-team .image {
+  overflow: hidden;
+}
+
+.team-style-eight .single-team .image img {
+  transition: all 0.4s ease;
+}
+
+.team-style-eight .single-team:hover .image .thumb {
+  transform: scale(1.1) rotate(1deg);
 }
 
 
@@ -2324,6 +2377,18 @@ p {
 
 .album-style-eight .box-container .inner:hover .image .thumb {
   transform: scale(1.1) rotate(1deg);
+}
+
+.more-image-text{
+  text-align: center; 
+  padding-top: 10px;
+  color:var(--primary);
+
+}
+
+.more-image-text a h4{
+  color:var(--primary);
+  font-style: italic;
 }
 
 
