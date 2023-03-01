@@ -1280,11 +1280,11 @@ p {
   border: 1px solid var(--light-1);
   border-radius: 10px;
   margin-bottom: 30px;
-  -webkit-transition: all 0.3s ease-out 0s;
+  /* -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s; */
 }
 .services-eight .single-services {
   box-shadow: var(--shadow-2);
