@@ -1351,7 +1351,7 @@ p {
   text-align: justify;
   padding: 0px 2%;
   font-style: italic;
-  height: 140px;
+  height: 180px;
 }
 
 .service-image{
@@ -2643,6 +2643,47 @@ p {
     transform: translateY(-50%);
   }
 
- 
+
+  
+
 }
 
+.template-btn {
+  width: 10em;
+  height: 3em;
+  line-height: 45px;
+  background: var(--primary);
+  font-size: 16px;
+  color: #fff !important;
+  border-radius: 5px;
+  margin-left: 25%;
+  margin-top: 10%;
+  text-align: center;
+}
+
+.template-btn2 {
+  width: 10em;
+  height: 3em;
+  line-height: 45px;
+  background: var(--primary);
+  font-size: 16px;
+  color: #fff !important;
+  border-radius: 5px;
+  margin-left: 25%;
+  margin-top: 3%;
+  text-align: center;
+}
+
+.template-btn3 {
+  width: 10em;
+  height: 3em;
+  line-height: 45px;
+  background: var(--primary);
+  font-size: 16px;
+  color: #fff !important;
+  border-radius: 5px;
+  margin-left: 25%;
+  margin-top: 16%;
+  text-align: center;
+  pointer-events: none;
+}
