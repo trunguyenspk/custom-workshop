@@ -1674,6 +1674,7 @@ p {
 }
 .latest-news-area .single-news .content-body p {
   color: var(--dark-3);
+  text-align: justify;
 }
 .latest-news-area .single-news:hover .image .thumb {
   transform: scale(1.1) rotate(1deg);
