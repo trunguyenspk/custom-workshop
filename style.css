@@ -1634,6 +1634,12 @@ p {
   width: 100%;
   transition: all 0.4s ease;
 }
+.latest-news-area .single-news .image .meta-new {
+  position: absolute;
+  right: 77%;
+  bottom: 83%;
+  width: 100px;display: inline-block;
+}
 .latest-news-area .single-news .image .meta-details {
   display: inline-block;
   padding: 6px 15px 6px 7px;
