@@ -1129,7 +1129,7 @@ p {
   }
 }
 .about-five-content{
-  padding-left: 50px;
+  /* padding-left: 50px; */
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .about-five-content {
@@ -1255,6 +1255,13 @@ p {
   width: 100%;
   z-index: 2;
   border-radius: 1em;
+}
+
+.scrollspy-example {
+  position: relative;
+  height: 200px;
+  margin-top: 0.5rem;
+  overflow: auto;
 }
 
 
